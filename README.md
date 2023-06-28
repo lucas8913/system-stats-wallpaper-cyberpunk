@@ -1,3 +1,5 @@
+This is mainly a test for me to learn how to use GitHub, it will probably not look right in resolutions other than 1080p unless you edit the "cyberpunk.xcf" file and replace the "cyberpunk.png" file on the textures folder.
+
 # Cyberpunk System Stats Wallpaper
 This is a simple modification of [rocksdanister](https://github.com/rocksdanister)'s [system-stats-wallpaper
 ](https://github.com/rocksdanister/system-stats-wallpaper) showcasing the [Lively Hardware API features.](https://github.com/rocksdanister/lively/wiki/Web-Guide-V-:-System-Data) This version uses the font [Rajdhani.](https://fonts.google.com/specimen/Rajdhani)
