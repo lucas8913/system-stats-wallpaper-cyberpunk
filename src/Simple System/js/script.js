@@ -11,7 +11,8 @@ var netCardName = "";
 var isChartInit = false;
 
 var chartColors = {
-    red: 'rgb(255, 99, 132)',
+    red: 'rgb(255, 59, 69)',
+    darkRed: 'rgb(196,10,0)',
     orange: 'rgb(255, 159, 64)',
     yellow: 'rgb(255, 205, 86)',
     green: 'rgb(0, 192, 0)',
@@ -34,8 +35,8 @@ var cpuChartConfig = {
     data: {
         datasets: [{
             label: 'Dataset 1',
-            backgroundColor: color(chartColors.grey).alpha(0.5).rgbString(),
-            borderColor: chartColors.grey,
+            backgroundColor: color(chartColors.red).alpha(0.5).rgbString(),
+            borderColor: chartColors.red,
             fill: false,
             lineTension: 0,
             borderDash: [0, 0],
@@ -86,8 +87,8 @@ var gpuChartConfig = {
     data: {
         datasets: [{
             label: 'Dataset 1 (linear interpolation)',
-            backgroundColor: color(chartColors.grey).alpha(0.5).rgbString(),
-            borderColor: chartColors.grey,
+            backgroundColor: color(chartColors.red).alpha(0.5).rgbString(),
+            borderColor: chartColors.red,
             fill: false,
             lineTension: 0,
             borderDash: [0, 0],
@@ -136,8 +137,8 @@ var netChartConfig = {
     data: {
         datasets: [{
             label: 'Net Down',
-            backgroundColor: color(chartColors.grey).alpha(0.5).rgbString(),
-            borderColor: chartColors.grey,
+            backgroundColor: color(chartColors.red).alpha(0.5).rgbString(),
+            borderColor: chartColors.red,
             fill: false,
             lineTension: 0,
             borderDash: [0, 0],
@@ -146,8 +147,8 @@ var netChartConfig = {
         },
         {
             label: 'Net Up',
-            backgroundColor: color(chartColors.lightGrey).alpha(0.5).rgbString(),
-            borderColor: chartColors.lightGrey,
+            backgroundColor: color(chartColors.darkRed).alpha(0.5).rgbString(),
+            borderColor: chartColors.darkRed,
             fill: false,
             lineTension: 0,
             borderDash: [0, 0],
@@ -195,8 +196,8 @@ var ramChartConfig = {
     data: {
         datasets: [{
             label: 'Dataset 1 (linear interpolation)',
-            backgroundColor: color(chartColors.grey).alpha(0.5).rgbString(),
-            borderColor: chartColors.grey,
+            backgroundColor: color(chartColors.red).alpha(0.5).rgbString(),
+            borderColor: chartColors.red,
             fill: false,
             lineTension: 0,
             borderDash: [0, 0],
