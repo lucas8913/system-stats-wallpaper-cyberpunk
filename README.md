@@ -1,6 +1,6 @@
 # Cyberpunk System Stats Wallpaper
 This is a simple modification of [rocksdanister](https://github.com/rocksdanister)'s [system-stats-wallpaper
-](https://github.com/rocksdanister/system-stats-wallpaper) showcasing the [Lively Hardware API features.](https://github.com/rocksdanister/lively/wiki/Web-Guide-V-:-System-Data)
+](https://github.com/rocksdanister/system-stats-wallpaper) showcasing the [Lively Hardware API features.](https://github.com/rocksdanister/lively/wiki/Web-Guide-V-:-System-Data) This version uses the font [Rajdhani.](https://fonts.google.com/specimen/Rajdhani)
 
 ![Screenshot of the wallpaper](https://raw.githubusercontent.com/lucas8913/system-stats-wallpaper-cyberpunk/main/descriptionImage.gif)
 
